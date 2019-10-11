@@ -80,6 +80,9 @@ endif
 ifeq ($(TARGET_PRODUCT), evk_8mm)
     include $(LOCAL_PATH)/conf/fsl/evk_8mm/Android.mk
 endif
+ifeq ($(TARGET_PRODUCT), maaxboard_mini)
+    include $(LOCAL_PATH)/conf/fsl/maaxboard_mini/Android.mk
+endif
 ifeq ($(TARGET_PRODUCT), sabresd_6dq_car)
     include $(LOCAL_PATH)/conf/fsl/sabresd_6dq/Android.mk
 endif
